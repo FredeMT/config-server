@@ -10,9 +10,12 @@ spring:
           uri: https://github.com/FredeMT/ead-config-server-repo.git
           default-label: main
           username: FredeMT
-          password: [enter the password token]
+          password: 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
 
 ead:
+  configServer:
+    username: configserver
+    password: 'ead123cs'
   serviceRegistry:
     username: serviceregistry
     password: 'ead123sr'

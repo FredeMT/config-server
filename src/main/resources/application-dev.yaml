@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/FredeMT/ead-config-server-repo.git
           default-label: main
           username: FredeMT
-          password: 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
+          password: [* Enter GitHub personal access token *]
 
 ead:
   configServer:
@@ -24,3 +24,6 @@ eureka:
       defaultZone: 'http://${ead.serviceRegistry.username}:${ead.serviceRegistry.password}@localhost:8761/eureka'
   instance:
     hostname: localhost
+
+encrypt:
+  key: ZPEyFMqBToV5piQXnFFToc0LemRxUXjKkaYNyuo0vlmrDVHY6s4Oim6ZDFV1wOLV
